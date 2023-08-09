@@ -256,7 +256,7 @@ section{
     }
 
     .menu-btn {
-        background: url(/menu-de-hamburguer.png) no-repeat;
+        background: url(/menu.svg) no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -267,7 +267,7 @@ section{
 
     .menu-btn.active {
         z-index: 999;
-        background: url(/close.png) no-repeat;
+        background: url(/close.svg) no-repeat;
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
@@ -292,6 +292,32 @@ section{
     .home .content a {
         font-size: 0.9em;
         padding: 10px 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Ajuste os estilos do modal para telas menores */
+    .modal-content {
+        width: 80%;
+    }
+
+    /* Ajuste os estilos do botão para telas menores */
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Ajuste os estilos do input para telas menores */
+    input {
+        padding: 6px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    /* Ajuste os estilos do botão de envio para telas menores */
+    button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
     }
 }
 
