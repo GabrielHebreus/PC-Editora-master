@@ -256,7 +256,7 @@ section{
     }
 
     .menu-btn {
-        background: url(/menu.svg) no-repeat;
+        background: url(./menu.svg) no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;
@@ -267,7 +267,7 @@ section{
 
     .menu-btn.active {
         z-index: 999;
-        background: url(/close.svg) no-repeat;
+        background: url(./close.svg) no-repeat;
         background-size: 25px;
         background-position: center;
         transition: 0.3s ease;
